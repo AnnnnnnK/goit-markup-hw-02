@@ -1,0 +1,152 @@
+/**
+  |============================
+  | Base styles
+  |============================
+*/
+
+.list{
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+}
+
+
+/**
+  |============================
+  | Header styles
+  |============================
+*/
+.header {
+}
+.header-nav {
+}
+.logo {
+}
+.header-nav-list {
+}
+.header-nav-item {
+}
+.header-address {
+}
+.header-address-list {
+}
+.header-address-mail {
+}
+
+/**
+  |============================
+  | Hero styles
+  |============================
+*/
+.hero {
+}
+.hero-title {
+}
+.hero-btn {
+}
+/**
+  |============================
+  | Benefits styles
+  |============================
+*/
+.benefits {
+}
+.benefits-list {
+}
+.benefits-item {
+}
+.benefits-title {
+}
+.benefits-desc {
+}
+
+/**
+  |============================
+  | About styles
+  |============================
+*/
+
+.about {
+}
+.about-title {
+}
+.about-list {
+}
+.about-item {
+}
+.about-img {
+}
+
+/**
+  |============================
+  | Team styles
+  |============================
+*/
+
+.team {
+}
+.team-title {
+}
+.team-list {
+}
+.team-item {
+}
+.team-img {
+}
+.team-subtitle {
+}
+.team-desc {
+}
+
+
+
+/**
+  |============================
+  | Filters styles
+  |============================
+*/
+
+.filters {
+}
+.filters-list {
+}
+.filters-item {
+}
+.filters-btn {
+}
+
+/**
+  |============================
+  | Projects styles
+  |============================
+*/
+
+.projects {
+}
+.projects-list {
+}
+.projects-item {
+}
+.projects-link {
+}
+.projects-img {
+}
+.projects-title {
+}
+.projects-subtitle {
+}
+
+/**
+  |============================
+  | Foter styles
+  |============================
+*/
+
+ .footer {
+}
+.footer-logo {
+}
+.footer-desc {
+}
