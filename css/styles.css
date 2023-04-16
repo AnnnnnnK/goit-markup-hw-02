@@ -1,17 +1,32 @@
+:root {
+  /* Fonts */
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+
+  /* Colors */
+  --primary-color: #2e2f42;
+  --secondary-color: #434455;
+  --accent-txt-color: #404bbf;
+  --accent-bg-color: #404bbf;
+  --light-txt-cl: #ffffff;
+}
+
 /**
   |============================
   | Base styles
   |============================
 */
-
-.list{
-    list-style: none;
+body {
+  font-family: var(--primary-font);
 }
 
-.link{
-    text-decoration: none;
+.list {
+  list-style: none;
 }
 
+.link {
+  text-decoration: none;
+}
 
 /**
   |============================
@@ -23,14 +38,43 @@
 .header-nav {
 }
 .logo {
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.logotype {
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-color);
 }
 .header-nav-list {
 }
 .header-nav-item {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-color);
 }
 .header-address {
 }
 .header-address-list {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
 }
 .header-address-mail {
 }
@@ -100,8 +144,6 @@
 .team-desc {
 }
 
-
-
 /**
   |============================
   | Filters styles
@@ -144,7 +186,7 @@
   |============================
 */
 
- .footer {
+.footer {
 }
 .footer-logo {
 }
