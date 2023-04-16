@@ -129,8 +129,9 @@ body {
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: var(--accent-bg-color);
-  color: #ffffff;
+  color: var(--light-txt-cl);
 }
+
 /**
   |============================
   | Benefits styles
@@ -245,6 +246,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
+  cursor: pointer;
 
   color: var(--txt-btn-color);
 }
