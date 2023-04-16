@@ -5,7 +5,9 @@
 
   /* Colors */
   --primary-color: #2e2f42;
+  /* SLATE */
   --secondary-color: #434455;
+  --txt-btn-color: #4d5ae5;
   --accent-txt-color: #404bbf;
   --accent-bg-color: #404bbf;
   --light-txt-cl: #ffffff;
@@ -59,6 +61,8 @@ body {
 .header-nav-list {
 }
 .header-nav-item {
+}
+.menu-link {
   font-family: var(--primary-font);
   font-weight: 500;
   font-size: 16px;
@@ -66,17 +70,30 @@ body {
   letter-spacing: 0.02em;
   color: var(--primary-color);
 }
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-txt-color);
+  text-decoration: underline;
+}
 .header-address {
 }
 .header-address-list {
+}
+.header-address-mail {
+}
+
+.contacts {
   font-family: var(--primary-font);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondary-color);
 }
-.header-address-mail {
+
+.contacts:hover,
+.contacts:focus {
+  color: var(--accent-txt-color);
 }
 
 /**
@@ -85,10 +102,34 @@ body {
   |============================
 */
 .hero {
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  background-color: var(--primary-color);
+
+  color: #ffffff;
 }
 .hero-title {
 }
 .hero-btn {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: #ffffff;
+  background: #4d5ae5;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--accent-bg-color);
+  color: #ffffff;
 }
 /**
   |============================
@@ -102,8 +143,19 @@ body {
 .benefits-item {
 }
 .benefits-title {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-color);
 }
 .benefits-desc {
+  font-family: var(--primary-font);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
 }
 
 /**
@@ -115,6 +167,14 @@ body {
 .about {
 }
 .about-title {
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--primary-color);
 }
 .about-list {
 }
@@ -132,6 +192,14 @@ body {
 .team {
 }
 .team-title {
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--primary-color);
 }
 .team-list {
 }
@@ -140,8 +208,21 @@ body {
 .team-img {
 }
 .team-subtitle {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--primary-color);
 }
 .team-desc {
+  font-family: var(--primary-font);
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
 }
 
 /**
@@ -157,6 +238,21 @@ body {
 .filters-item {
 }
 .filters-btn {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: var(--txt-btn-color);
+}
+
+.filters-btn:hover,
+.filters-btn:focus {
+  background-color: var(--accent-bg-color);
+  color: var(--light-txt-cl);
 }
 
 /**
@@ -176,8 +272,19 @@ body {
 .projects-img {
 }
 .projects-title {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-color);
 }
 .projects-subtitle {
+  font-family: var(--primary-font);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
 }
 
 /**
@@ -187,8 +294,25 @@ body {
 */
 
 .footer {
+  background: var(--primary-color);
 }
 .footer-logo {
 }
 .footer-desc {
+  font-family: var(--primary-font);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+
+.logotype-light {
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
 }
