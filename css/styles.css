@@ -20,6 +20,8 @@
 */
 body {
   font-family: var(--primary-font);
+  color: #434455
+  background-color:#ffffff;
 }
 
 .list {
@@ -77,6 +79,7 @@ body {
   text-decoration: underline;
 }
 .header-address {
+    font-style: normal
 }
 .header-address-list {
 }
@@ -85,6 +88,7 @@ body {
 
 .contacts {
   font-family: var(--primary-font);
+  font-style: normal
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -102,6 +106,9 @@ body {
   |============================
 */
 .hero {
+   
+}
+.hero-title {
   font-family: var(--primary-font);
   font-weight: 700;
   font-size: 56px;
@@ -111,8 +118,6 @@ body {
   background-color: var(--primary-color);
 
   color: #ffffff;
-}
-.hero-title {
 }
 .hero-btn {
   font-family: var(--primary-font);
@@ -166,6 +171,7 @@ body {
 */
 
 .about {
+    
 }
 .about-title {
   font-family: var(--primary-font);
@@ -178,6 +184,7 @@ body {
   color: var(--primary-color);
 }
 .about-list {
+   
 }
 .about-item {
 }
@@ -191,6 +198,7 @@ body {
 */
 
 .team {
+     
 }
 .team-title {
   font-family: var(--primary-font);
@@ -203,8 +211,10 @@ body {
   color: var(--primary-color);
 }
 .team-list {
+    background: #F4F4FD;
 }
 .team-item {
+    background-color: #FFFFFF 
 }
 .team-img {
 }
