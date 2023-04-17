@@ -7,6 +7,7 @@
   --primary-color: #2e2f42;
   /* SLATE */
   --secondary-color: #434455;
+  --btn-color:#F4F4FD;
   --txt-btn-color: #4d5ae5;
   --accent-txt-color: #404bbf;
   --accent-bg-color: #404bbf;
@@ -172,6 +173,7 @@ body {
 */
 
 .about {
+    background-color: #F4F4FD
     
 }
 .about-title {
@@ -260,6 +262,7 @@ body {
   cursor: pointer;
 
   color: var(--txt-btn-color);
+  background-color: var(--btn-color);
 }
 
 .filters-btn:hover,
@@ -281,6 +284,7 @@ body {
 .projects-item {
 }
 .projects-link {
+    text-decoration: none
 }
 .projects-img {
 }
