@@ -212,6 +212,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--primary-color);
+  background-color: #F4F4FD
 }
 .team-list {
     background: #F4F4FD;
